@@ -1,0 +1,9 @@
+{
+	"name": "kalisha",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6feb070-a758-4bc8-9fd6-85c573ab1ace",
+		"tenantId": "78f67dd2-4ef6-45d6-81dc-a9b7894f394f"
+	}
+}
