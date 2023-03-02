@@ -1,0 +1,79 @@
+{
+	"name": "DelimitedText4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage4",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "outputblob77"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CustomerID",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "NoOfChildren",
+				"type": "String"
+			},
+			{
+				"name": "MinAgeOfChild",
+				"type": "String"
+			},
+			{
+				"name": "MaxAgeOfChild",
+				"type": "String"
+			},
+			{
+				"name": "Tenure",
+				"type": "String"
+			},
+			{
+				"name": "FrquncyOfPurchase",
+				"type": "String"
+			},
+			{
+				"name": "NoOfUnitsPurchased",
+				"type": "String"
+			},
+			{
+				"name": "FrequencyOFPlay",
+				"type": "String"
+			},
+			{
+				"name": "NoOfGamesPlayed",
+				"type": "String"
+			},
+			{
+				"name": "NoOfGamesBought",
+				"type": "String"
+			},
+			{
+				"name": "FavoriteChannelOfTransaction",
+				"type": "String"
+			},
+			{
+				"name": "FavoriteGame",
+				"type": "String"
+			},
+			{
+				"name": "TotalRevenueGenerated",
+				"type": "String"
+			}
+		]
+	}
+}
